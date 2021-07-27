@@ -1,13 +1,17 @@
 <?php 
-    $name = $_GET['name'];
-    $email = $_GET['email'];
-    $age = $_GET['age'];
-     
-    if(strpos($email, '@') == true && strpos($email, '.') == true && strlen($name) > 3 && is_numeric($age) == true){
+    //$name = $_GET['name'];
+    //$email = $_GET['email'];
+    //$age = $_GET['age'];
+
+    if (empty($_GET['name'])|| empty($_GET['email']) || empty($_GET['age'])){
+        $accesso = 'i campi sono vuoti';
+    } else if(strpos($_GET['email'], '@') == true && strpos($_GET['email'], '.') == true && strlen($_GET['name']) > 3 && is_numeric($_GET['age']) == true){
         $accesso = 'Puoi accedere';
     } else {
         $accesso = 'Non puoi accedere';
     }
+   
+    
 ?>
 
 

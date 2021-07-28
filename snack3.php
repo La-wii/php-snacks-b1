@@ -39,6 +39,8 @@ $posts = [
         ]
     ],
 ];
+
+
     
 ?>
 
@@ -51,6 +53,14 @@ $posts = [
     <title>Document</title>
 </head>
 <body> 
-
+    <?php       
+        foreach($posts as $key => $post) {
+            echo '<hr>' . $key . '<br>'; {
+                foreach($post as $n){
+                    echo $n['title'] . ' ' . $n['author'] . ' ' . $n['text'] . '<br>';
+                }
+            }
+        }
+    ?>
 </body>
 </html>

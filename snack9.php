@@ -30,5 +30,12 @@
             echo '<br>';
         }
     ?>
+
+
+    <!-- foreach($classe as $key => $studente){
+    echo $studente['name'] .' ' . $studente['lastname'] . '<br>';
+    $media = array_sum($studente['voti']);
+    echo 'La media dei voti è:'. ' ' .($media/count($studente['voti'])) . '<br><br>'; -->
+}
 </body>
 </html>

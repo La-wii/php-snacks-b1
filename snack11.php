@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +10,8 @@
 </head>
 <body>
     <form method="get" action="datisnack11.php">
-            
-            //<label for="email">Email:</label>
-            <input type="text" id="email" name="name" />
-            <input type="submit" value="Submit" />
+        <input type="text" name="name" placeholder="Inserisci il nome"/>
+        <input type="submit"/>
         
     </form> 
 </body>

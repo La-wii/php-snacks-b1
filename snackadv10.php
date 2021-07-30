@@ -14,7 +14,7 @@ $ads = [
     [
         'image_path' => 'https://thumbs.dreamstime.com/z/back-to-school-sale-background-chalkboard-sale-percentages-marketing-poster-color-pencils-96751666.jpg',
         'link' => 'https://codepen.io',
-        'is_active' => false,
+        'is_active' => true,
     ],
     [
         'image_path' => 'https://foodsecurityfoodjustice.files.wordpress.com/2016/11/beyond-the-omlette-1.jpg',
